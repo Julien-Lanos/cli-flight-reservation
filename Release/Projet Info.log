@@ -1,0 +1,39 @@
+﻿La génération a démarré 17/05/2013 19:05:00.
+     1>Projet "C:\Users\Julien\Desktop\Projet Info\Sauvegarde Projet Info\Programme\Projet Info.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         C:\Users\Julien\Documents\Cours J\1A 2012-2013\Application\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "Supprimer Trajets.cpp"
+         Supprimer Trajets.cpp
+     1>c:\users\julien\desktop\projet info\sauvegarde projet info\programme\Supprimer Trajets.h(1): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+       Link:
+         C:\Users\Julien\Documents\Cours J\1A 2012-2013\Application\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Julien\Desktop\Projet Info\Sauvegarde Projet Info\Programme\Release\Projet Info.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Julien\Desktop\Projet Info\Sauvegarde Projet Info\Programme\Release\Projet Info.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Julien\Desktop\Projet Info\Sauvegarde Projet Info\Programme\Release\Projet Info.lib" /MACHINE:X86 /SAFESEH "Release\Affichage Vols.obj"
+         "Release\Afficher Reservation.obj"
+         "Release\Afficher Voyageur.obj"
+         "Release\Ajouter Reservation.obj"
+         "Release\Afficher Trajets.obj"
+         "Release\Ajouter Trajets.obj"
+         "Release\Ajouter Vols.obj"
+         "Release\Ajouter Voyageur.obj"
+         "Release\Menu Principal.obj"
+         "Release\Menu Reservation.obj"
+         "Release\Menu Trajets.obj"
+         "Release\Menu Vols.obj"
+         "Release\Menu Voyageur.obj"
+         "Release\Modifier Reservation.obj"
+         "Release\Modifier Vols.obj"
+         "Release\Modifier Voyageur.obj"
+         "Release\Recherche Vols.obj"
+         "Release\Rechercher Reservation.obj"
+         "Release\Rechercher Trajets.obj"
+         "Release\Rechercher Voyageur.obj"
+         "Release\Supprimer Trajets.obj"
+         "Release\Supprimer Vols.obj"
+         "Release\Supprimer Voyageur.obj"
+         "Release\Suprimer Reservation.obj"
+         Génération de code en cours
+         Fin de la génération du code
+         Projet Info.vcxproj -> C:\Users\Julien\Desktop\Projet Info\Sauvegarde Projet Info\Programme\Release\Projet Info.exe
+     1>Génération du projet "C:\Users\Julien\Desktop\Projet Info\Sauvegarde Projet Info\Programme\Projet Info.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:10.51

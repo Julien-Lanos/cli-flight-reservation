@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\.h Menu Principal">
+      <UniqueIdentifier>{963c0063-cd11-4c6c-a73d-009bc8cd6378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu Trajets">
+      <UniqueIdentifier>{00fcaaa9-702a-497e-a655-eca57eb6e1c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu Voyageurs">
+      <UniqueIdentifier>{563eede3-4d83-460f-bcec-ef26ac37f417}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu Reservation">
+      <UniqueIdentifier>{de3616a3-54e7-4545-b26a-242a7f214d47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\.h Vols">
+      <UniqueIdentifier>{f0f21024-99bd-4c58-864d-3002868b87d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu Vols">
+      <UniqueIdentifier>{46a1c721-abc7-4e96-8cb7-193ebd3da22a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\.h Reservation">
+      <UniqueIdentifier>{2482616e-8fea-463c-96e3-ee506c5e2413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\.h Voyageur">
+      <UniqueIdentifier>{5d480662-7b5f-4833-bfd0-537af3049c43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\.h Trajets">
+      <UniqueIdentifier>{3a589683-eb11-47ad-8fc4-e7cd53ef6d0a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Menu Principal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu Voyageur.cpp">
+      <Filter>Source Files\Menu Voyageurs</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu Reservation.cpp">
+      <Filter>Source Files\Menu Reservation</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu Trajets.cpp">
+      <Filter>Source Files\Menu Trajets</Filter>
+    </ClCompile>
+    <ClCompile Include="Affichage Vols.cpp">
+      <Filter>Source Files\Menu Vols</Filter>
+    </ClCompile>
+    <ClCompile Include="Ajouter Vols.cpp">
+      <Filter>Source Files\Menu Vols</Filter>
+    </ClCompile>
+    <ClCompile Include="Supprimer Vols.cpp">
+      <Filter>Source Files\Menu Vols</Filter>
+    </ClCompile>
+    <ClCompile Include="Modifier Vols.cpp">
+      <Filter>Source Files\Menu Vols</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu Vols.cpp">
+      <Filter>Source Files\Menu Vols</Filter>
+    </ClCompile>
+    <ClCompile Include="Recherche Vols.cpp">
+      <Filter>Source Files\Menu Vols</Filter>
+    </ClCompile>
+    <ClCompile Include="Ajouter Voyageur.cpp">
+      <Filter>Source Files\Menu Voyageurs</Filter>
+    </ClCompile>
+    <ClCompile Include="Afficher Voyageur.cpp">
+      <Filter>Source Files\Menu Voyageurs</Filter>
+    </ClCompile>
+    <ClCompile Include="Rechercher Voyageur.cpp">
+      <Filter>Source Files\Menu Voyageurs</Filter>
+    </ClCompile>
+    <ClCompile Include="Supprimer Voyageur.cpp">
+      <Filter>Source Files\Menu Voyageurs</Filter>
+    </ClCompile>
+    <ClCompile Include="Modifier Voyageur.cpp">
+      <Filter>Source Files\Menu Voyageurs</Filter>
+    </ClCompile>
+    <ClCompile Include="Ajouter Reservation.cpp">
+      <Filter>Source Files\Menu Reservation</Filter>
+    </ClCompile>
+    <ClCompile Include="Afficher Reservation.cpp">
+      <Filter>Source Files\Menu Reservation</Filter>
+    </ClCompile>
+    <ClCompile Include="Suprimer Reservation.cpp">
+      <Filter>Source Files\Menu Reservation</Filter>
+    </ClCompile>
+    <ClCompile Include="Modifier Reservation.cpp">
+      <Filter>Source Files\Menu Reservation</Filter>
+    </ClCompile>
+    <ClCompile Include="Rechercher Reservation.cpp">
+      <Filter>Source Files\Menu Reservation</Filter>
+    </ClCompile>
+    <ClCompile Include="Afficher Trajets.cpp">
+      <Filter>Source Files\Menu Trajets</Filter>
+    </ClCompile>
+    <ClCompile Include="Rechercher Trajets.cpp">
+      <Filter>Source Files\Menu Trajets</Filter>
+    </ClCompile>
+    <ClCompile Include="Supprimer Trajets.cpp">
+      <Filter>Source Files\Menu Trajets</Filter>
+    </ClCompile>
+    <ClCompile Include="Ajouter Trajets.cpp">
+      <Filter>Source Files\Menu Trajets</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Voyageur.1.h">
+      <Filter>Header Files\.h Menu Principal</Filter>
+    </ClInclude>
+    <ClInclude Include="Vols.1.h">
+      <Filter>Header Files\.h Menu Principal</Filter>
+    </ClInclude>
+    <ClInclude Include="Trajets.1.h">
+      <Filter>Header Files\.h Menu Principal</Filter>
+    </ClInclude>
+    <ClInclude Include="Reservation.1.h">
+      <Filter>Header Files\.h Menu Principal</Filter>
+    </ClInclude>
+    <ClInclude Include="Ajouter Vols.h">
+      <Filter>Header Files\.h Vols</Filter>
+    </ClInclude>
+    <ClInclude Include="Supprimer Vols.h">
+      <Filter>Header Files\.h Vols</Filter>
+    </ClInclude>
+    <ClInclude Include="Modifier Vols.h">
+      <Filter>Header Files\.h Vols</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu Principal.h">
+      <Filter>Header Files\.h Menu Principal</Filter>
+    </ClInclude>
+    <ClInclude Include="Rechercher Vols.h">
+      <Filter>Header Files\.h Vols</Filter>
+    </ClInclude>
+    <ClInclude Include="Afficher Vols.h">
+      <Filter>Header Files\.h Vols</Filter>
+    </ClInclude>
+    <ClInclude Include="Ajouter Voyageur.h">
+      <Filter>Header Files\.h Voyageur</Filter>
+    </ClInclude>
+    <ClInclude Include="Afficher Voyageur.h">
+      <Filter>Header Files\.h Voyageur</Filter>
+    </ClInclude>
+    <ClInclude Include="Rechercher Voyageur.h">
+      <Filter>Header Files\.h Voyageur</Filter>
+    </ClInclude>
+    <ClInclude Include="Supprimer Voyageur.h">
+      <Filter>Header Files\.h Voyageur</Filter>
+    </ClInclude>
+    <ClInclude Include="Modifier Voyageur.h">
+      <Filter>Header Files\.h Voyageur</Filter>
+    </ClInclude>
+    <ClInclude Include="Ajouter Reservation.h">
+      <Filter>Header Files\.h Reservation</Filter>
+    </ClInclude>
+    <ClInclude Include="Afficher Reservation.h">
+      <Filter>Header Files\.h Reservation</Filter>
+    </ClInclude>
+    <ClInclude Include="Supprimer Reservation.h">
+      <Filter>Header Files\.h Reservation</Filter>
+    </ClInclude>
+    <ClInclude Include="Rechercher Reservation.h">
+      <Filter>Header Files\.h Reservation</Filter>
+    </ClInclude>
+    <ClInclude Include="Modifier Reservation.h">
+      <Filter>Header Files\.h Reservation</Filter>
+    </ClInclude>
+    <ClInclude Include="Afficher Trajets.h">
+      <Filter>Header Files\.h Trajets</Filter>
+    </ClInclude>
+    <ClInclude Include="Rechercher Trajets.h">
+      <Filter>Header Files\.h Trajets</Filter>
+    </ClInclude>
+    <ClInclude Include="Supprimer Trajets.h">
+      <Filter>Header Files\.h Trajets</Filter>
+    </ClInclude>
+    <ClInclude Include="Ajouter Trajet.h">
+      <Filter>Header Files\.h Trajets</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

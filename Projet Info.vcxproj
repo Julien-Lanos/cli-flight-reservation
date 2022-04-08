@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6B5F3E67-44AA-4F2E-8EAC-BB6719F54555}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ProjetInfo</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Affichage Vols.cpp" />
+    <ClCompile Include="Afficher Reservation.cpp" />
+    <ClCompile Include="Afficher Voyageur.cpp" />
+    <ClCompile Include="Ajouter Reservation.cpp" />
+    <ClCompile Include="Afficher Trajets.cpp" />
+    <ClCompile Include="Ajouter Trajets.cpp" />
+    <ClCompile Include="Ajouter Vols.cpp" />
+    <ClCompile Include="Ajouter Voyageur.cpp" />
+    <ClCompile Include="Menu Principal.cpp" />
+    <ClCompile Include="Menu Reservation.cpp" />
+    <ClCompile Include="Menu Trajets.cpp" />
+    <ClCompile Include="Menu Vols.cpp" />
+    <ClCompile Include="Menu Voyageur.cpp" />
+    <ClCompile Include="Modifier Reservation.cpp" />
+    <ClCompile Include="Modifier Vols.cpp" />
+    <ClCompile Include="Modifier Voyageur.cpp" />
+    <ClCompile Include="Recherche Vols.cpp" />
+    <ClCompile Include="Rechercher Reservation.cpp" />
+    <ClCompile Include="Rechercher Trajets.cpp" />
+    <ClCompile Include="Rechercher Voyageur.cpp" />
+    <ClCompile Include="Supprimer Trajets.cpp" />
+    <ClCompile Include="Supprimer Vols.cpp" />
+    <ClCompile Include="Supprimer Voyageur.cpp" />
+    <ClCompile Include="Suprimer Reservation.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Afficher Reservation.h" />
+    <ClInclude Include="Afficher Vols.h" />
+    <ClInclude Include="Afficher Voyageur.h" />
+    <ClInclude Include="Ajouter Reservation.h" />
+    <ClInclude Include="Ajouter Trajet.h" />
+    <ClInclude Include="Ajouter Vols.h" />
+    <ClInclude Include="Ajouter Voyageur.h" />
+    <ClInclude Include="Afficher Trajets.h" />
+    <ClInclude Include="Menu Principal.h" />
+    <ClInclude Include="Modifier Reservation.h" />
+    <ClInclude Include="Rechercher Reservation.h" />
+    <ClInclude Include="Rechercher Trajets.h" />
+    <ClInclude Include="Supprimer Reservation.h" />
+    <ClInclude Include="Modifier Vols.h" />
+    <ClInclude Include="Modifier Voyageur.h" />
+    <ClInclude Include="Rechercher Vols.h" />
+    <ClInclude Include="Rechercher Voyageur.h" />
+    <ClInclude Include="Reservation.1.h" />
+    <ClInclude Include="Supprimer Trajets.h" />
+    <ClInclude Include="Supprimer Vols.h" />
+    <ClInclude Include="Supprimer Voyageur.h" />
+    <ClInclude Include="Trajets.1.h" />
+    <ClInclude Include="Vols.1.h" />
+    <ClInclude Include="Voyageur.1.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
